@@ -1,0 +1,52 @@
+* {
+  border-width: thin;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 2000px;
+  color: #9ad79b;
+  font-size: small;
+  padding-top: 5%;
+  border-radius: 8px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  border-style: dotted;
+  padding: 0.5%;
+}
+.content {
+  border-style: dotted;
+  text-align: left;
+  padding: 1%;
+}
+.sidebar {
+  border-style: dotted;
+  margin: 1% 1% 1% 90%;
+  padding: 1% 1% 1% 1%;
+}
+ul {
+  padding: 0% 1% 0% 0%;
+}
+
+.features {
+  border-style: dotted;
+  text-align: center;
+  margin: 1% 0% 1% 0%;
+  padding: 1.5%;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  border-style: dotted;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+}
